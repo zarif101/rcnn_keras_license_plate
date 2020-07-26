@@ -1,7 +1,7 @@
 # Basic Object Detect W/ Keras RCNN From Scratch
 
 Please check out the following Medium article for more info!
-ARTICLE STILL BEING WRITTEN
+https://medium.com/@zarif.azher/basic-rcnn-object-detection-from-scratch-using-keras-and-opencv-19e5e43b3dfd
 
 # The Basics
 As I learned more and more about object detection, I decided to implement a basic version of a basic object detection algorithm - the RCNN. This implementation aims to detect license plates of vehicles, in image. Once again, please check out the Medium article for more info. I'm assuming you already know what you're getting into... :)
@@ -38,7 +38,7 @@ main('many_plates.jpg','base_model.h5')
 
 # Notes
 - As noted in the the code itself, you must edit the imports (at the top) section of all the '.py' files, to import Keras and different Keras elements, from Tensorflow or however you normally do. They currently import Keras via PlaidML, a framework that I use since I have an AMD GPU and can't use Tensorflow.
-- I'm currently writing a Medium article to cover this project and the topic, in more detail. The link will be here once its up.
+- Medium article I wrote with more detail about the project and RCNNs: https://medium.com/@zarif.azher/basic-rcnn-object-detection-from-scratch-using-keras-and-opencv-19e5e43b3dfd
 - I will soon  have a detailed demonstration video, in addition to the Medium article
 - I'm quite busy, but I'll add more features/thorough documentation whenever I can.
 - There is currently no command line args parser - it will be implemented soon, and you'll be able to change different parameters without directly editing the '.py' files.
